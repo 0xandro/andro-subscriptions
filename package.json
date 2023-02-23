@@ -1,0 +1,39 @@
+{
+  "name": "andro-smart-wallets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "clean-node": "clear & npx hardhat clean & npx hardhat node",
+    "subscribe-scenario": "sh ./bash-scripts/subscribe-scenario.sh",
+    "unsubscribe-scenario": "sh ./bash-scripts/unsubscribe-scenario.sh",
+    "slither": "slither . --checklist --filter-paths \"node_modules|WIP|legacy\" > report.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0xandro/andro-smart-wallets.git"
+  },
+  "author": "Andro Labs Development Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xandro/andro-smart-wallets/issues"
+  },
+  "homepage": "https://github.com/0xandro/andro-smart-wallets#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.15",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-ethers": "^1.0.1",
+    "hardhat-tracer": "^1.1.0-rc.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
