@@ -1,5 +1,11 @@
 # ANDRO SUBSCRIPTIONS
 
+## Description
+The Andro Subscription Smart Contract was developed by Andro Labs Development Team. The provided
+contract enables a user-friendly interface to subscribe to future prizes and benefits granted
+after the official release of the protocol. This Smart Contract is composed of open-source
+and well-tested code deployed on the blockchain.
+
 ## Dependencies
 
 Install `Node.js`.
