@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/0xandro/andro-smart-wallets.git"
+    "url": "git+ssh://git@github.com:0xandro/andro-subscriptions.git"
   },
   "author": "Andro Labs Development Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0xandro/andro-smart-wallets/issues"
+    "url": "https://github.com/0xandro/andro-subscriptions/issues"
   },
-  "homepage": "https://github.com/0xandro/andro-smart-wallets#readme",
+  "homepage": "https://github.com/0xandro/andro-subscriptions#readme",
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.7.3",
